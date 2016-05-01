@@ -1,0 +1,533 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADD34EB91CD67D5600193468 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD34EB81CD67D5600193468 /* main.m */; };
+		ADD34EBC1CD67D5600193468 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD34EBB1CD67D5600193468 /* AppDelegate.m */; };
+		ADD34EBF1CD67D5600193468 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD34EBE1CD67D5600193468 /* RootViewController.m */; };
+		ADD34EC21CD67D5600193468 /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD34EC11CD67D5600193468 /* DataViewController.m */; };
+		ADD34EC51CD67D5600193468 /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD34EC41CD67D5600193468 /* ModelController.m */; };
+		ADD34EC81CD67D5600193468 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD34EC61CD67D5600193468 /* Main.storyboard */; };
+		ADD34ECA1CD67D5600193468 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADD34EC91CD67D5600193468 /* Assets.xcassets */; };
+		ADD34ECD1CD67D5600193468 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADD34ECB1CD67D5600193468 /* LaunchScreen.storyboard */; };
+		ADD34ED81CD67D5600193468 /* MarMarTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD34ED71CD67D5600193468 /* MarMarTestTests.m */; };
+		ADD34EE31CD67D5600193468 /* MarMarTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADD34EE21CD67D5600193468 /* MarMarTestUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADD34ED41CD67D5600193468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD34EAC1CD67D5600193468 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD34EB31CD67D5600193468;
+			remoteInfo = MarMarTest;
+		};
+		ADD34EDF1CD67D5600193468 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADD34EAC1CD67D5600193468 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADD34EB31CD67D5600193468;
+			remoteInfo = MarMarTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADD34EB41CD67D5600193468 /* MarMarTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarMarTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD34EB81CD67D5600193468 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADD34EBA1CD67D5600193468 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADD34EBB1CD67D5600193468 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADD34EBD1CD67D5600193468 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		ADD34EBE1CD67D5600193468 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		ADD34EC01CD67D5600193468 /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		ADD34EC11CD67D5600193468 /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		ADD34EC31CD67D5600193468 /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		ADD34EC41CD67D5600193468 /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		ADD34EC71CD67D5600193468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADD34EC91CD67D5600193468 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADD34ECC1CD67D5600193468 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ADD34ECE1CD67D5600193468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD34ED31CD67D5600193468 /* MarMarTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarMarTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD34ED71CD67D5600193468 /* MarMarTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarMarTestTests.m; sourceTree = "<group>"; };
+		ADD34ED91CD67D5600193468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADD34EDE1CD67D5600193468 /* MarMarTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarMarTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADD34EE21CD67D5600193468 /* MarMarTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarMarTestUITests.m; sourceTree = "<group>"; };
+		ADD34EE41CD67D5600193468 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADD34EB11CD67D5600193468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD34ED01CD67D5600193468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD34EDB1CD67D5600193468 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADD34EAB1CD67D5500193468 = {
+			isa = PBXGroup;
+			children = (
+				ADD34EB61CD67D5600193468 /* MarMarTest */,
+				ADD34ED61CD67D5600193468 /* MarMarTestTests */,
+				ADD34EE11CD67D5600193468 /* MarMarTestUITests */,
+				ADD34EB51CD67D5600193468 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADD34EB51CD67D5600193468 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADD34EB41CD67D5600193468 /* MarMarTest.app */,
+				ADD34ED31CD67D5600193468 /* MarMarTestTests.xctest */,
+				ADD34EDE1CD67D5600193468 /* MarMarTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADD34EB61CD67D5600193468 /* MarMarTest */ = {
+			isa = PBXGroup;
+			children = (
+				ADD34EBA1CD67D5600193468 /* AppDelegate.h */,
+				ADD34EBB1CD67D5600193468 /* AppDelegate.m */,
+				ADD34EBD1CD67D5600193468 /* RootViewController.h */,
+				ADD34EBE1CD67D5600193468 /* RootViewController.m */,
+				ADD34EC01CD67D5600193468 /* DataViewController.h */,
+				ADD34EC11CD67D5600193468 /* DataViewController.m */,
+				ADD34EC31CD67D5600193468 /* ModelController.h */,
+				ADD34EC41CD67D5600193468 /* ModelController.m */,
+				ADD34EC61CD67D5600193468 /* Main.storyboard */,
+				ADD34EC91CD67D5600193468 /* Assets.xcassets */,
+				ADD34ECB1CD67D5600193468 /* LaunchScreen.storyboard */,
+				ADD34ECE1CD67D5600193468 /* Info.plist */,
+				ADD34EB71CD67D5600193468 /* Supporting Files */,
+			);
+			path = MarMarTest;
+			sourceTree = "<group>";
+		};
+		ADD34EB71CD67D5600193468 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADD34EB81CD67D5600193468 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADD34ED61CD67D5600193468 /* MarMarTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADD34ED71CD67D5600193468 /* MarMarTestTests.m */,
+				ADD34ED91CD67D5600193468 /* Info.plist */,
+			);
+			path = MarMarTestTests;
+			sourceTree = "<group>";
+		};
+		ADD34EE11CD67D5600193468 /* MarMarTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADD34EE21CD67D5600193468 /* MarMarTestUITests.m */,
+				ADD34EE41CD67D5600193468 /* Info.plist */,
+			);
+			path = MarMarTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADD34EB31CD67D5600193468 /* MarMarTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD34EE71CD67D5600193468 /* Build configuration list for PBXNativeTarget "MarMarTest" */;
+			buildPhases = (
+				ADD34EB01CD67D5600193468 /* Sources */,
+				ADD34EB11CD67D5600193468 /* Frameworks */,
+				ADD34EB21CD67D5600193468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarMarTest;
+			productName = MarMarTest;
+			productReference = ADD34EB41CD67D5600193468 /* MarMarTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADD34ED21CD67D5600193468 /* MarMarTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD34EEA1CD67D5600193468 /* Build configuration list for PBXNativeTarget "MarMarTestTests" */;
+			buildPhases = (
+				ADD34ECF1CD67D5600193468 /* Sources */,
+				ADD34ED01CD67D5600193468 /* Frameworks */,
+				ADD34ED11CD67D5600193468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD34ED51CD67D5600193468 /* PBXTargetDependency */,
+			);
+			name = MarMarTestTests;
+			productName = MarMarTestTests;
+			productReference = ADD34ED31CD67D5600193468 /* MarMarTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADD34EDD1CD67D5600193468 /* MarMarTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADD34EED1CD67D5600193468 /* Build configuration list for PBXNativeTarget "MarMarTestUITests" */;
+			buildPhases = (
+				ADD34EDA1CD67D5600193468 /* Sources */,
+				ADD34EDB1CD67D5600193468 /* Frameworks */,
+				ADD34EDC1CD67D5600193468 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADD34EE01CD67D5600193468 /* PBXTargetDependency */,
+			);
+			name = MarMarTestUITests;
+			productName = MarMarTestUITests;
+			productReference = ADD34EDE1CD67D5600193468 /* MarMarTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADD34EAC1CD67D5600193468 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Mary Robison";
+				TargetAttributes = {
+					ADD34EB31CD67D5600193468 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					ADD34ED21CD67D5600193468 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ADD34EB31CD67D5600193468;
+					};
+					ADD34EDD1CD67D5600193468 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = ADD34EB31CD67D5600193468;
+					};
+				};
+			};
+			buildConfigurationList = ADD34EAF1CD67D5600193468 /* Build configuration list for PBXProject "MarMarTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADD34EAB1CD67D5500193468;
+			productRefGroup = ADD34EB51CD67D5600193468 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADD34EB31CD67D5600193468 /* MarMarTest */,
+				ADD34ED21CD67D5600193468 /* MarMarTestTests */,
+				ADD34EDD1CD67D5600193468 /* MarMarTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADD34EB21CD67D5600193468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD34ECD1CD67D5600193468 /* LaunchScreen.storyboard in Resources */,
+				ADD34ECA1CD67D5600193468 /* Assets.xcassets in Resources */,
+				ADD34EC81CD67D5600193468 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD34ED11CD67D5600193468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD34EDC1CD67D5600193468 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADD34EB01CD67D5600193468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD34EC21CD67D5600193468 /* DataViewController.m in Sources */,
+				ADD34EBC1CD67D5600193468 /* AppDelegate.m in Sources */,
+				ADD34EC51CD67D5600193468 /* ModelController.m in Sources */,
+				ADD34EB91CD67D5600193468 /* main.m in Sources */,
+				ADD34EBF1CD67D5600193468 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD34ECF1CD67D5600193468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD34ED81CD67D5600193468 /* MarMarTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADD34EDA1CD67D5600193468 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADD34EE31CD67D5600193468 /* MarMarTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADD34ED51CD67D5600193468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD34EB31CD67D5600193468 /* MarMarTest */;
+			targetProxy = ADD34ED41CD67D5600193468 /* PBXContainerItemProxy */;
+		};
+		ADD34EE01CD67D5600193468 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADD34EB31CD67D5600193468 /* MarMarTest */;
+			targetProxy = ADD34EDF1CD67D5600193468 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADD34EC61CD67D5600193468 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADD34EC71CD67D5600193468 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADD34ECB1CD67D5600193468 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADD34ECC1CD67D5600193468 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADD34EE51CD67D5600193468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADD34EE61CD67D5600193468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADD34EE81CD67D5600193468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarMarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarMar.MarMarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADD34EE91CD67D5600193468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MarMarTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarMar.MarMarTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADD34EEB1CD67D5600193468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarMarTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarMar.MarMarTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarMarTest.app/MarMarTest";
+			};
+			name = Debug;
+		};
+		ADD34EEC1CD67D5600193468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MarMarTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarMar.MarMarTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MarMarTest.app/MarMarTest";
+			};
+			name = Release;
+		};
+		ADD34EEE1CD67D5600193468 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarMarTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarMar.MarMarTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarMarTest;
+			};
+			name = Debug;
+		};
+		ADD34EEF1CD67D5600193468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MarMarTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MarMar.MarMarTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MarMarTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADD34EAF1CD67D5600193468 /* Build configuration list for PBXProject "MarMarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD34EE51CD67D5600193468 /* Debug */,
+				ADD34EE61CD67D5600193468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADD34EE71CD67D5600193468 /* Build configuration list for PBXNativeTarget "MarMarTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD34EE81CD67D5600193468 /* Debug */,
+				ADD34EE91CD67D5600193468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADD34EEA1CD67D5600193468 /* Build configuration list for PBXNativeTarget "MarMarTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD34EEB1CD67D5600193468 /* Debug */,
+				ADD34EEC1CD67D5600193468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ADD34EED1CD67D5600193468 /* Build configuration list for PBXNativeTarget "MarMarTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADD34EEE1CD67D5600193468 /* Debug */,
+				ADD34EEF1CD67D5600193468 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADD34EAC1CD67D5600193468 /* Project object */;
+}
